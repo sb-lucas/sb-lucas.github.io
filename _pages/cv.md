@@ -50,7 +50,7 @@ _styles: >
   <div class="timeline-item">
     <div class="timeline-head">
       <h4>{% if name == "Student Groups" and item.url %}<a href="{{ item.url }}">{{ heading }}</a>{% else %}{{ heading }}{% endif %}</h4>
-      <span class="timeline-date">{{ item.start_date | append: "-01" | date: "%b %Y" }} – {% if item.end_date == "present" %}Present{% else %}{{ item.end_date | append: "-01" | date: "%b %Y" }}{% endif %}</span>
+      <span class="timeline-date">{{ item.start_date | append: "-01" | date: "%b %Y" }} – {% if item.end_date == "present" %}Present{% else %}{{ item.end_date | append: "-01" | date: "%b %Y" }}{% if item.expected %} (expected){% endif %}{% endif %}</span>
     </div>
     <div class="timeline-place">{% if name != "Student Groups" and item.url %}<a href="{{ item.url }}">{{ sub }}</a>{% else %}{{ sub }}{% endif %}{% if item.location %}, {{ item.location }}{% endif %}</div>
     {% if item.summary %}<p>{{ item.summary }}</p>{% endif %}

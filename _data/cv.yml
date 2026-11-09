@@ -22,9 +22,11 @@ cv:
         area: Computer Science
         studyType: Bachelor
         start_date: 2022-02
-        end_date: present
+        end_date: 2027-07
+        expected: true
         highlights:
           - "GPA: 9.1/10 (10th place among 92 students)"
+          - "Thesis: <em>Conversational Music Recommendation using Multimodal Audio and Text Queries</em>"
         transcript: /assets/pdf/transcript.pdf
 
     Research Experience:
@@ -33,11 +35,11 @@ cv:
         location: Barcelona, Spain
         start_date: 2025-05
         end_date: 2025-08
-        summary: Personalized and interactive music retrieval based on similarity, using audio and text.
+        summary: Personalized and interactive music retrieval based on similarity, using audio and text queries.
         highlights:
-          - Used audio-language models with PyTorch and HuggingFace to learn multimodal representations.
-          - Used Essentia, PyFluidSynth, PrettyMIDI and Librosa to process audio and MIDI files.
-          - The work resulted in a paper under review at IEEE TASLPRO.
+          - Trained audio-language models with PyTorch and HuggingFace to learn multimodal representations.
+          - Processed audio and MIDI data with Essentia, PyFluidSynth, PrettyMIDI and Librosa.
+          - Resulted in a paper under review at IEEE TASLPRO.
 
       - company: ICMC, University of São Paulo
         position: Undergraduate Researcher
@@ -47,23 +49,25 @@ cv:
         summary: Attribute-guided music retrieval using disentangled representation learning (DRL).
         highlights:
           - Applied contrastive learning with PyTorch to generate audio embeddings.
-          - Developed a DRL method on pre-trained foundation models, resulting in a paper accepted at LAMIR 2026.
+          - Developed a post-hoc DRL method on top of pre-trained audio foundation models, resulting in a paper accepted at LAMIR 2026.
 
       - company: ICMC, University of São Paulo
         position: Undergraduate Researcher
         location: São Carlos, Brazil
         start_date: 2023-08
         end_date: 2024-07
-        summary: Prediction of popular songs using graph neural networks (GNNs), with NetworkX and PyTorch Geometric.
+        summary: Predicting popular songs with graph neural networks (GNNs).
+        highlights:
+          - Modeled multimodal music data as heterogeneous graphs with NetworkX and PyTorch Geometric, and trained GNNs on them.
 
       - company: ICMC, University of São Paulo
         position: Undergraduate Researcher
         location: São Carlos, Brazil
         start_date: 2022-08
         end_date: 2023-07
-        summary: Evaluation of large language models (LLMs) for risk analysis.
+        summary: Evaluating large language models (LLMs) for risk analysis.
         highlights:
-          - Used LLM APIs, Pandas, NumPy, Scikit-Learn and Matplotlib to analyze data and structure the evaluation.
+          - Used LLM APIs, Pandas, NumPy, Scikit-Learn and Matplotlib to analyze the data and structure the evaluation.
 
     Student Groups:
       - company: RAIA

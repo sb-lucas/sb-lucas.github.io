@@ -30,7 +30,7 @@ latest_posts:
 
 <div class="info-grid">
   <div><span class="info-label">Birthday</span>June 1st, 2004</div>
-  <div><span class="info-label">Age</span>22</div>
+  <div><span class="info-label">Age</span><span id="age">22</span></div>
   <div><span class="info-label">City</span>São Carlos, Brazil</div>
   <div><span class="info-label">Degree</span>Undergraduate</div>
 </div>
@@ -48,7 +48,7 @@ Previously, I was a visiting researcher at the [Music Technology Group (MTG)](ht
 .hero-aff { color: var(--global-text-color-light); }
 .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem 1.5rem; margin: 0.5rem 0 1.5rem; }
 .info-label { display: inline-block; min-width: 5.5rem; margin-right: 0.6rem; padding-right: 0.6rem; border-right: 2px solid var(--global-theme-color); font-weight: 600; text-align: right; }
-@media (max-width: 576px) { .info-grid { grid-template-columns: 1fr; } }
+@media (max-width: 576px) { .info-grid { grid-template-columns: 1fr; clear: both; } }
 .profile-icons { display: flex; justify-content: center; gap: 0.9rem; font-size: 1.5rem; margin-top: 0.6rem; }
 .profile-icons a { color: var(--global-text-color) !important; }
 .profile-icons a:hover { color: var(--global-theme-color) !important; }
@@ -59,6 +59,15 @@ Previously, I was a visiting researcher at the [Music Technology Group (MTG)](ht
 .news-tl-date { position: absolute; left: -5.9rem; width: 3.6rem; text-align: right; top: 0.1rem; font-size: 0.85rem; color: var(--global-theme-color); }
 .news-heading { clear: both; padding-top: 1rem; }
 </style>
+
+<script>
+  (function () {
+    var b = new Date(2004, 5, 1), n = new Date();
+    var age = n.getFullYear() - b.getFullYear();
+    if (n.getMonth() < b.getMonth() || (n.getMonth() === b.getMonth() && n.getDate() < b.getDate())) age--;
+    document.getElementById("age").textContent = age;
+  })();
+</script>
 
 <h2 class="news-heading">News</h2>
 
