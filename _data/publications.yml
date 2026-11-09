@@ -1,0 +1,24 @@
+# Papers shown on /publications/.
+# status: published or review. Links (paper, code, demo) show only when filled in;
+# papers under review never show links.
+
+- title: "Exploring Post-Hoc Disentanglement of Audio Foundation Models for Music Similarity"
+  authors: "Lucas de Souza Brandão, Gabriel da Costa Merlin, Diego Furtado Silva"
+  venue: "2nd Latin American Music Information Retrieval Workshop (LAMIR 2026)"
+  status: published
+  paper:
+  code: https://github.com/sb-lucas/Post-Hoc-DRL
+  demo:
+
+- title: "Assessing Alignment in Automatic Piano Transcription Datasets: A Benchmark for Scoring Methods"
+  authors: "Lucas de Souza Brandão, Lucas Gris, Joaquim Cavalcante, Chukwuemeka Nkama, Andrea Poltronieri"
+  venue: "2nd Latin American Music Information Retrieval Workshop (LAMIR 2026)"
+  status: published
+  paper:
+  code: https://github.com/sb-lucas/SyncAM
+  demo:
+
+- title: "Guided Music Retrieval: Music Search with Multimodal Queries"
+  authors: "Lucas de Souza Brandão, Diego Furtado Silva, Pablo Alonso-Jiménez, Dmitry Bogdanov"
+  venue: "IEEE Transactions on Audio, Speech, and Language Processing (TASLPRO)"
+  status: review

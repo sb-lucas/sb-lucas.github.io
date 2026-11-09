@@ -1,189 +1,104 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Lucas de Souza Brandão
+  label: Computer Science Undergraduate
+  email: lucasouza@usp.br
+  location: São Carlos, Brazil
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Bachelor's student at ICMC-USP working on representation learning for musical data and music information retrieval.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: sb-lucas
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: sb-lucas
+    - network: ORCID
+      username: 0009-0002-1426-8617
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: University of São Paulo (ICMC-USP)
+        location: São Carlos, Brazil
+        url: https://icmc.usp.br/
+        area: Computer Science
+        studyType: Bachelor
+        start_date: 2022-02
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - "GPA: 9.1/10 (10th place among 92 students)"
+        transcript: /assets/pdf/transcript.pdf
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+    Research Experience:
+      - company: Music Technology Group (MTG), Universitat Pompeu Fabra
+        position: Full-Time Research Intern
+        location: Barcelona, Spain
+        start_date: 2025-05
+        end_date: 2025-08
+        summary: Personalized and interactive music retrieval based on similarity, using audio and text.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Used audio-language models with PyTorch and HuggingFace to learn multimodal representations.
+          - Used Essentia, PyFluidSynth, PrettyMIDI and Librosa to process audio and MIDI files.
+          - The work resulted in a paper under review at IEEE TASLPRO.
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: ICMC, University of São Paulo
+        position: Undergraduate Researcher
+        location: São Carlos, Brazil
+        start_date: 2024-10
+        end_date: present
+        summary: Attribute-guided music retrieval using disentangled representation learning (DRL).
         highlights:
-          - Relativity
-          - Description 2.
+          - Applied contrastive learning with PyTorch to generate audio embeddings.
+          - Developed a DRL method on pre-trained foundation models, resulting in a paper accepted at LAMIR 2026.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: ICMC, University of São Paulo
+        position: Undergraduate Researcher
+        location: São Carlos, Brazil
+        start_date: 2023-08
+        end_date: 2024-07
+        summary: Prediction of popular songs using graph neural networks (GNNs), with NetworkX and PyTorch Geometric.
+
+      - company: ICMC, University of São Paulo
+        position: Undergraduate Researcher
+        location: São Carlos, Brazil
+        start_date: 2022-08
+        end_date: 2023-07
+        summary: Evaluation of large language models (LLMs) for risk analysis.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Used LLM APIs, Pandas, NumPy, Scikit-Learn and Matplotlib to analyze data and structure the evaluation.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    Student Groups:
+      - company: RAIA
+        url: https://gruporaia.com/
+        position: Member & Leader
+        location: ICMC-USP, São Carlos, Brazil
+        start_date: 2024-08
+        end_date: 2026-09
+        summary: RAIA is a student group at ICMC-USP that develops applied artificial intelligence projects in teams of around five undergraduate students. I took part in three of them, as a member and as a leader.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "[Leader] <a href='https://github.com/sb-lucas/SyncAM'>Audio-MIDI Alignment</a> (Aug 2025 – Sep 2026): measuring how well audio and MIDI pairs are aligned in piano transcription datasets, under the supervision of researchers from MTG. Resulted in a paper accepted at LAMIR 2026."
+          - "[Leader] <a href='https://gruporaia.com/projetos/projeto/tts-autotuning'>TTS AutoTuning</a> (Apr 2025 – Jul 2025): an automated pipeline for fine-tuning text-to-speech models such as XTTS-v2 and Orpheus-TTS, with a dataset builder that creates training data from raw audio using Whisper."
+          - "[Member] <a href='https://gruporaia.com/projetos/projeto/ecovision'>EcoVision</a> (Aug 2024 – Dec 2024): a computer vision system that detects hazardous items in waste for Cooperativa Acácia, fine-tuning YOLO for oriented bounding box detection on our own dataset."
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - company: Data ICMC
+        url: https://data.icmc.usp.br/
+        position: Member & Coordinator
+        location: ICMC-USP, São Carlos, Brazil
+        start_date: 2023-08
+        end_date: 2024-12
+        summary: Data ICMC is the Data Science and Artificial Intelligence student group at ICMC-USP. It runs technical projects, events, study groups and courses.
+        highlights:
+          - Member and coordinator of the Courses team. Taught Python and introductory machine learning to first-year students, and organized both the team and the course content.
+          - As coordinator, started and led the group's restructuring, redesigning its structure, roles and teams. Between 2023 and 2024 it went from a shrinking group with few members and little activity to an active one with successful events and courses.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming
+        keywords: "Python, PyTorch, Pandas, NumPy, Scikit-Learn, Matplotlib, Librosa, HuggingFace, NetworkX"
+      - name: Topics
+        keywords: "Representation Learning, Music Information Retrieval, Computer Vision, Graph Neural Networks, NLP, Speech Processing, Deep Learning"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
+      - name: Portuguese
+        summary: "Native"
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        summary: "Advanced"
+      - name: Spanish
+        summary: "Intermediate"
