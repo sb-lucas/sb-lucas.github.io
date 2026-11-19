@@ -49,7 +49,7 @@ My research focuses on Music Information Retrieval (MIR), especially representat
 
 <div class="bio-personal" markdown="1">
 
-I am a curious person with a wide range of interests, and I am always learning something new. Over the years, I have tried cooking, fashion, gaming, martial arts, sociology, and much more.
+I am a very curious person. My hobbies span a wide range of interests, so I am always learning about some random topic. Among them, I like cooking, fashion, gaming, martial arts, sociology, music, and whatever I'm interested in at the moment.
 
 Music, in particular, has always been part of my life. My earliest memory is of my father listening to [Charlie Brown Jr.](https://www.youtube.com/watch?v=45YuWYQ1YkE) on his computer. I have played the electric guitar since I was 11, and I have also tried a little bit of singing and music production.
 
