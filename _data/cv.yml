@@ -79,7 +79,7 @@ cv:
         summary: RAIA is a student group at ICMC-USP that develops applied artificial intelligence projects in teams of around five undergraduate students. I took part in three of them, as a member and as a leader.
         highlights:
           - "[Leader] <a href='https://github.com/sb-lucas/SyncAM'>Audio-MIDI Alignment</a> (Aug 2025 – Sep 2026): measuring how well audio and MIDI pairs are aligned in piano transcription datasets, under the supervision of researchers from MTG. Resulted in a paper accepted at LAMIR 2026."
-          - "[Leader] <a href='https://gruporaia.com/projetos/projeto/tts-autotuning'>TTS AutoTuning</a> (Apr 2025 – Jul 2025): an automated pipeline for fine-tuning text-to-speech models such as XTTS-v2 and Orpheus-TTS, with a dataset builder that creates training data from raw audio using Whisper."
+          - "[Leader] <a href='https://gruporaia.com/projetos/projeto/tts-autotuning'>TTS-AutoTuning</a> (Apr 2025 – Jul 2025): an automated pipeline for fine-tuning text-to-speech models such as XTTS-v2 and Orpheus-TTS, with a dataset builder that creates training data from raw audio using Whisper."
           - "[Member] <a href='https://gruporaia.com/projetos/projeto/ecovision'>EcoVision</a> (Aug 2024 – Dec 2024): a computer vision system that detects hazardous items in waste for Cooperativa Acácia, fine-tuning YOLO for oriented bounding box detection on our own dataset."
 
       - company: Data ICMC
@@ -97,7 +97,7 @@ cv:
       - name: Programming
         keywords: "Python, PyTorch, Pandas, NumPy, Scikit-Learn, Matplotlib, Librosa, HuggingFace, NetworkX"
       - name: Topics
-        keywords: "Representation Learning, Music Information Retrieval, Computer Vision, Graph Neural Networks, NLP, Speech Processing, Deep Learning"
+        keywords: "Representation Learning, Music Information Retrieval, Deep Learning, Computer Vision, Graph Neural Networks, NLP, Speech Processing"
 
     Languages:
       - name: Portuguese

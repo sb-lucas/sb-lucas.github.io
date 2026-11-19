@@ -5,7 +5,7 @@
   source_url: https://gruporaia.com/
   projects:
     - title: "TTS-AutoTuning"
-      role: Project Manager
+      role: Leader
       dates: Apr 2025 – Jul 2025
       description: "Automated framework for fine-tuning text-to-speech models from raw Portuguese audio, with a dataset builder, a Portuguese text normalizer and speech quality metrics (SECS, UTMOS, CER), with examples for XTTS-v2 and Orpheus-TTS."
       code: https://github.com/gruporaia/TTS-AutoTuning
@@ -13,7 +13,7 @@
       video: https://youtu.be/A6KlBExCb_4
 
     - title: "EcoVision"
-      role: Data Scientist
+      role: Member
       dates: Aug 2024 – Dec 2024
       description: "Real-time detection of hazardous items (sharp, flammable or electronic waste) on recycling conveyor belts for Cooperativa Acácia, using a YOLOv11 model fine-tuned for oriented bounding boxes on our own dataset."
       code: https://github.com/gruporaia/EcoVision

@@ -6,7 +6,7 @@
   authors: "Lucas de Souza Brandão, Gabriel da Costa Merlin, Diego Furtado Silva"
   venue: "2nd Latin American Music Information Retrieval Workshop (LAMIR 2026)"
   status: published
-  paper:
+  paper: https://arxiv.org/abs/2611.14415
   code: https://github.com/sb-lucas/Post-Hoc-DRL
   demo:
 
@@ -14,7 +14,7 @@
   authors: "Lucas de Souza Brandão, Lucas Gris, Joaquim Cavalcante, Chukwuemeka Nkama, Andrea Poltronieri"
   venue: "2nd Latin American Music Information Retrieval Workshop (LAMIR 2026)"
   status: published
-  paper:
+  paper: https://arxiv.org/abs/2611.14443
   code: https://github.com/sb-lucas/SyncAM
   demo:
 

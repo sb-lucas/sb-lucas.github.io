@@ -5,6 +5,8 @@ title: Contact
 nav: true
 nav_order: 6
 description:
+_styles: >
+  .post-header { display: none; }
 ---
 
 ### Address
